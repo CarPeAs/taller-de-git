@@ -1,4 +1,5 @@
 <?php
+// Autor: Carlos Pérez @correo
 //echo "Hola Mundo\n";
 //@print "Hola {$argv[1]}\n";
 // El nombre por defecto es Mundo
