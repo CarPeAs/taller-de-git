@@ -4,6 +4,9 @@
 //@print "Hola {$argv[1]}\n";
 // El nombre por defecto es Mundo
 // Este comentario está mal y hay que borrarlo
-$nombre = isset($argv[1]) ? $argv[1] : "Mundo";
+//$nombre = isset($argv[1]) ? $argv[1] : "Mundo";
+//@print "Hola, {$nombre}\n";
+print "Introduce tu nombre:";
+$nombre = trim(fgets(STDIN));
 @print "Hola, {$nombre}\n";
 ?>
